@@ -1,0 +1,362 @@
+@media screen and (max-width: 780px){
+    body{
+        background-color: rgb(202, 104, 202);
+    }
+    #head li{
+        float: left;
+        width: 33%;
+        margin: 0.167%;
+    }
+
+    header li a:hover{
+        color: rgb(20, 240, 104);
+        font-size: 1.1em;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    header li a:visited{
+        color:rgb(27, 131, 163);
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(131, 145, 93);
+    }
+    #head li{
+        float: left;
+        width: 49%;
+        margin: 0.33%;
+    }
+
+    header li a:hover{
+        color: rgb(42, 47, 90);
+        font-size: 0.8em;
+        font-family:'Courier New', Courier, monospace;
+    }
+    header li a:visited{
+        color:rgb(163, 27, 38);
+    }
+    /* HEADER HEADINGS */
+    header section h1{
+        text-align: none;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 20px;
+        padding-top: 17px;
+    }
+    /* HEADER IMAGE */
+    header img{
+        position:static;
+        float: left;
+        width: 3.5%;
+        margin-top: 0;
+        margin-left: 9px;
+        padding-top: 22px;
+        max-width: 100%;
+    }
+    
+}
+
+/* MEDIA QUERY MIN-WIDTH OF 507px */
+@media screen and (max-width: 507px){
+    body{
+        background-color:rgb(183, 216, 33);
+    }
+     /* HEADER HEADINGS */
+     header section h1{
+        text-align: none;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 76px;
+        padding-top: 17px;
+    }
+    /* HEADER IMAGE */
+    header img{
+        position:static;
+        float: left;
+        width: 5%;
+        margin-top: 0;
+        margin-left: 52px;
+        padding-top: 24px;
+        max-width: 100%;
+    }
+    /* HEADER FORM ELEMENT */
+    form{
+        float: right;
+        width: auto;
+        display: inline;
+        line-height: 2.0;
+        margin-top: -33px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    /* ALL NAVIGATIONS AND ITS LINKS */
+    header nav{
+        line-height: 1.5;
+        background-color: rgb(248, 241, 241);
+        max-width: 70%;
+    }
+    header li{
+        float: right;
+        padding: 0;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        list-style-type: none;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(250, 246, 246);
+    }
+    header li a:hover{
+        color: rgb(163, 36, 106);
+        font-size: 0.8em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header li a:visited{
+        color:rgb(44, 31, 165)
+    }
+    .three{
+       float: left;
+       display:inline;
+       position:relative;
+       margin-top: 29px;
+    }
+    
+}
+
+/* MEDIA QUERY OF MAXWIDTH 467px */
+@media screen and (max-width: 467px){
+    body{
+        background-color:rgb(42, 47, 90);
+    }
+        
+    /* HEADER HEADINGS */
+    header section h1{
+        text-align: none;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 76px;
+        padding-top: 17px;
+    }
+    /* HEADER IMAGE */
+    header img{
+        position:static;
+        float: left;
+        width: 5%;
+        margin-top: 0;
+        margin-left: 52px;
+        padding-top: 24px;
+        max-width: 100%;
+    }
+    /* HEADER FORM ELEMENT */
+    form{
+        float: right;
+        width: auto;
+        display: inline;
+        line-height: 2.0;
+        margin-top: -33px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    /* ALL NAVIGATIONS AND ITS LINKS */
+    header nav{
+        line-height: 1.5;
+        background-color: rgb(248, 241, 241);
+        max-width: 70%;
+    }
+    header li{
+        float: right;
+        padding: 0;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        list-style-type: none;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(250, 246, 246);
+    }
+    header li a:hover{
+        color: rgb(48, 48, 172);
+        font-size: 1em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header li a:visited{
+        color:rgb(191, 209, 27)
+    }
+    .three{
+    float: left;
+    display:inline;
+    position:relative;
+    margin-top: 18px;
+    }
+}
+
+
+/* MEDIA QUERY OF MAX-WIDTH OF 442px */
+@media screen and (max-width: 442px){
+    body{
+        background-color:rgb(189, 36, 74);
+    }
+     /* HEADER HEADINGS */
+     header section h1{
+        text-align: none;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 76px;
+        padding-top: 17px;
+    }
+    /* HEADER IMAGE */
+    header img{
+        position:static;
+        float: left;
+        width: 5%;
+        margin-top: 0;
+        margin-left: 52px;
+        padding-top: 24px;
+        max-width: 100%;
+    }
+    /* HEADER FORM ELEMENT */
+    form{
+        float: right;
+        width: auto;
+        display: inline;
+        line-height: 2.0;
+        margin-top: -33px;
+        margin-left: 15px;
+        padding-top: 20px;
+    }
+    /* ALL NAVIGATIONS AND ITS LINKS */
+    header nav{
+        line-height: 1.5;
+        background-color: rgb(248, 241, 241);
+        max-width: 70%;
+    }
+    header li{
+        float: right;
+        padding: 0;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        list-style-type: none;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(250, 246, 246);
+    }
+    header li a:hover{
+        color: rgb(48, 48, 172);
+        font-size: 1em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header li a:visited{
+        color:rgb(191, 209, 27)
+    }
+    .three{
+       float: left;
+       display:inline;
+       position:relative;
+       margin-top: 18px;
+    }
+}
+/* MEDIA QUERY OF MAX-WIDTH OF 280px */
+@media screen and (max-width: 280px){
+    body{
+        background-color:rgb(138, 132, 133);
+    }
+     /* HEADER HEADINGS */
+     header section h1{
+        text-align: none;
+        line-height: 1.5;
+        text-transform: uppercase;
+        font-size: 18px;
+        text-align: center;
+        color: rgb(255, 250, 250);
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 76px;
+        padding-top: 17px;
+    }
+    /* HEADER IMAGE */
+    header img{
+        position:static;
+        float: left;
+        width: 10%;
+        margin-top: 0;
+        margin-left: 51px;
+        padding-top: 21px;
+        max-width: 100%;
+    }
+    /* HEADER FORM ELEMENT */
+    form{
+        float: right;
+        width: 100%;
+        display: inline;
+        line-height: 2.0;
+        margin-top: -33px;
+        margin-left: 5px;
+        padding-top: 20px;
+    }
+    form label{
+        float: left;
+        font-size: 10px;
+        display: none;
+
+    }
+    /* ALL NAVIGATIONS AND ITS LINKS */
+    header nav{
+        line-height: 1.5;
+        background-color: rgb(248, 241, 241);
+        max-width: 70%;
+    }
+    header li{
+        float: right;
+        padding: 0;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        list-style-type: none;
+        font-weight: bold;
+        margin-left: 20px;
+        display: inline;
+    }
+    header a{
+        text-decoration: none;
+        color: rgb(250, 246, 246);
+    }
+    header li a:hover{
+        color: rgb(48, 48, 172);
+        font-size: 0.7em;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header li a:visited{
+        color:rgb(191, 209, 27)
+    }
+    .three{
+       float: left;
+       display:inline;
+       position:relative;
+       margin-top: 18px;
+    }
+}
+
+
